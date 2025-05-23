@@ -1169,7 +1169,7 @@ class FNode(OperationNode):
             clauses.append([-1 * d_f[i], -1 * d_b[i], d_c[i], d_d[i], cond_c[i]])
             clauses.append([-1 * d_f[i], -1 * d_b[i], d_c[i], -1 * d_d[i], cond_c[i]])
             # condD
-            clauses.append([d_f[i], -1 * d_b[i], d_c[i], d_d[i], cond_d[i]])
+            #clauses.append([d_f[i], -1 * d_b[i], d_c[i], d_d[i], cond_d[i]])
             clauses.append([d_f[i], -1 * d_b[i], -1 * d_c[i], d_d[i], cond_d[i]])
             clauses.append([-1 * d_f[i], -1 * d_b[i], d_c[i], d_d[i], cond_d[i]])
             clauses.append([-1 * d_f[i], -1 * d_b[i], -1 * d_c[i], d_d[i], cond_d[i]])
